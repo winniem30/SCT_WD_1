@@ -1,0 +1,57 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 15px 0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.navbar ul li a:hover {
+    color: cyan;
+}
+
+/* Scroll Effect */
+.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Sections */
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+#home { background-color: lightblue; }
+#about { background-color: lightcoral; }
+#services { background-color: lightgreen; }
+#contact { background-color: lightgoldenrodyellow; }
