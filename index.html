@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Landing Page</title>
+    <title>Consultation Services</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
 <body>
+    <!-- Navbar -->
     <nav class="navbar">
+        <div class="logo">ConsultPro</div>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -17,20 +19,51 @@
         </ul>
     </nav>
 
-    <section id="home">
-        <h1>Welcome to Our Website</h1>
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Professional Consultation at Your Fingertips</h1>
+            <p>Your trusted partner in decision-making and growth. Let's collaborate to achieve success!</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
     </section>
 
-    <section id="about">
-        <h2>About Us</h2>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-content">
+            <h2>About Us</h2>
+            <p>We offer expert consultation to help businesses and individuals make informed decisions. Our team brings years of experience and a passion for problem-solving.</p>
+        </div>
     </section>
 
-    <section id="services">
-        <h2>Our Services</h2>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-content">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>Business Strategy</h3>
+                    <p>Developing strategies for your business growth and market positioning.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Financial Advice</h3>
+                    <p>Providing expert advice on financial planning, investments, and more.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Personal Coaching</h3>
+                    <p>Helping individuals unlock their potential and achieve personal goals.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-content">
+            <h2>Contact Us</h2>
+            <p>Ready to take your business or life to the next level? Get in touch with us now!</p>
+            <a href="mailto:contact@consultpro.com" class="cta-button">Email Us</a>
+        </div>
     </section>
 </body>
 </html>
